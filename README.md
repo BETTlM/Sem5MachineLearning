@@ -224,3 +224,4 @@ Those tracks are Review 2 (`notebooks/classification.ipynb`, `notebooks/clusteri
 ## Academic note
 
 Course guidelines allow generative AI for scaffolding, not for invented interpretation. AI agents were employed to document the code **only**.
+> Cursor agent was used in commit `3082033` to fix git pipeline errors.

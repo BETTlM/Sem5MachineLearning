@@ -367,7 +367,7 @@ Elevation dominates as the apex feature in tree splits. Linear models (Logistic 
 
 ## Classification Part B and Clustering
 
-Those tracks are Review 2. They are not in this folder yet.
+Those tracks Classification Part B and Clustering are Review 2. They are not in this folder yet.
 
 ---
 

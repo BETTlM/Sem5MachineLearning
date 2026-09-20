@@ -74,7 +74,7 @@ pip install -r requirements.txt
 Run the clusters **in order**. Each one consumes the table from the one above.
 
 ### Cluster A : Setup
-Imports, `random_state=42`, paths, and `FAST_DEV`. Creates `results/` and `results/figures/`.
+Imports, `random_state=42`, paths, and `FAST_DEV`. Creates `results/` and `results/regression`.
 
 **Switch you may change**
 
@@ -99,7 +99,7 @@ You get:
 - Distance vs duration and hour vs duration
 - Correlation heatmap of raw numerics
 
-Each figure is followed by a short “how to read this” note (rubric A2 + A3). Every figure is also saved under `results/figures/`.
+Each figure is followed by a short “how to read this” note (rubric A2 + A3). Every figure is also saved under `results/regression`.
 
 ### Cluster D : Data cleaning
 Rule-based, with a before/after row table (rubric B1):
@@ -257,7 +257,7 @@ Run the clusters in absolute sequential order. Every cluster relies on the state
 
 ### Cluster A : Setup
 
-Imports libraries, sets `RANDOM_STATE = 42`, and defines output paths. Creates `results/` and `results/figures/`. Establishes subset caps for computationally expensive algorithms ($O(n^2)$ time complexity).
+Imports libraries, sets `RANDOM_STATE = 42`, and defines output paths. Creates `results/` and `results/regression`. Establishes subset caps for computationally expensive algorithms ($O(n^2)$ time complexity).
 
 ### Cluster B : Problem and data audit
 
@@ -271,7 +271,7 @@ You get:
 * Target class frequency histograms
 * Elevation profile distributions by Cover Type (boxplots)
 * Topographical cross-correlation heatmaps (e.g., Aspect vs. Hillshade)
-Each figure is saved automatically to `results/figures/` for the final pptx compilation (rubric A2 + A3).
+Each figure is saved automatically to `results/regression` for the final pptx compilation (rubric A2 + A3).
 
 ### Cluster D : Data cleaning
 
